@@ -19,21 +19,7 @@ body {
   font-size: medium;
   color:#342309;
   background-color: #E6D8D0;
-height: 100%;
-}
 
-.hero-image {
-  /* Used "linear-gradient" to add a darken background effect to the image (photographer.jpg). */
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/ai-web-dev-original.jpg"); 
-
-  /* Set a specific height */
-  height: 50%;
-
-  /* Position and center the image to scale nicely on all screens */
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
 }
 
 p {
@@ -44,9 +30,11 @@ p {
 
 h1 {
   color:#342309;
-  font-family: 'aliceregular';
-  font-size: 52px;
-  font-weight: bold;
+  font-family: "Lobster", sans-serif;
+  font-weight: 400;
+  font-size: 56px;
+  font-style: normal;
+
 }
 
 h2, h3, h4, h5, h6 {
@@ -59,25 +47,26 @@ h2, h3, h4, h5, h6 {
 header {
   width: 100%;
   height: 10%;
-  background-image: url(../images/julie.jpg);
-  background-repeat: no-repeat;
-  background-position: right center;
   background-color: #E6D8D0;
   border-color: #342309;
   border-width: medium;
   border-style: dotted;
   color: #a96b66;
   padding: 1em;
+  text-align: center;
+ 
 }
 
 /* Set nav to sticky or fixed */
 .sticky {
-  position: sticky;
+  position: fixed;
   top: 0;
   width: 100%;
 }
 /* Add a dark background color to the top navigation */
 .topnav {
+  position: relative;
+  text-align: center;
   background-color: #342309;
   color: #f2f2f2;
   overflow: hidden;
@@ -114,6 +103,10 @@ a:visited {color: gray;} /* visited link */
 a:hover {color: #F2EEEE;} /* mouse over link */
 a:active {color:#0000FF;}  /* selected link */
 
+.fringe {
+  height: 1vh;
+  background-image: repeating-linear-gradient(110deg,#342309 10px, #E6D8D0 10px, #342309 15px, #E6D8D0 10px);
+}
 
 main {
   width: 80%;
@@ -168,7 +161,7 @@ footer {
 #lobster-regular {
   font-family: "Lobster", sans-serif;
   font-weight: 400;
-  font-size: 18px;
+  font-size: 56px;
   font-style: normal;
 }
 
@@ -182,3 +175,27 @@ footer {
 		background-color: #a96b66;
 		padding: 20px;
 	}
+
+  .hero-image {
+  /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(88, 80, 80, 0.5)), url("../images/ai-web-dev-original.jpg");
+
+  /* Set a specific height */
+  height: 50vh;
+
+  /* Position and center the image to scale nicely on all screens */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+/* Place text in the middle of the image */
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
