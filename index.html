@@ -17,15 +17,19 @@
       <link rel="stylesheet" href="css/all.css">
       <link rel="stylesheet" href="css/regular.css">
       <link rel="stylesheet" href="css/svg-with-js.css">
+      <link rel="stylesheet" href="css/layout.css">
 
    </head>
 
    <body>
       <header class="favorite">
-         <h1>Julie's Home Page</h1>
+         <h1 class="headerText">Julie's Home Page</h1>
+         <div id="headerLogoContainer">
+            <image id="logoimage" src="images/logoipsum-299.svg"></image>
+         </div>
       </header>
-      <nav>
-         <a href="index.html">Home</a> | <a href="about.html">About Placeholder</a> | <a href="contact-us.html">Contact Placeholder</a> | <a href="blog.html">Blog</a>
+      <nav class="topnav">
+         <a href="index.html">Home</a><a href="about.html">About Placeholder</a><a href="contact-us.html">Contact Placeholder</a><a href="blog.html">Blog</a>
       </nav>
       <main>
          <section id="sidebar">
@@ -57,7 +61,11 @@
         </ol>
         <h3>Personal</h3>
         <p>Julie enjoys biking and yoga. She is a bible study <strong>addict</strong>!</p>
-        <img src="images/julie.jpg" alt="Picture of Julie">
+        <figure>
+            <img src="images/julie.jpg" alt="Picture of Julie">
+            <figcaption>Fig. 1 Recent photo of Julie</figcaption>
+        </figure>
+        
       </section>
       </main>
       <aside>
