@@ -158,11 +158,9 @@ footer {
   .hero-image {
   /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(88, 80, 80, 0.5)), url("../images/man-on-sofa.jpg");
-  height: 70vh;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  position: relative;
 }
 
 .hero-text {
