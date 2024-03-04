@@ -29,8 +29,7 @@
         <a href="index.html">Home</a><a href="about.html">About Placeholder</a><a href="contact-us.html">Contact Placeholder</a><a href="about.html">Blog</a> 
     </nav>
     <div class="fringe"></div> 
-
-    <main class="container">
+    <main>
         <!-- <aside>
             <ul>
                 <li><a href="#article1">Srcset and Sizes Attributes by Kevin Powell</a></li>
@@ -42,11 +41,9 @@
         <article>
             <h3 id="article1"><i class="fa-sparkles"></i>Srcset & Sizes Video by Kevin Powell</h3>
             <a href="https://www.youtube.com">Watch Video</a>
-            <figure>
-               <img src="images/srcset-original-flexbox.jpg" 
-               alt="Srcset and Sizes video thumbnail provided by YouTube">
-               <figcaption>Fig. 1 Kevin Powell in front of SrcSet banner</figcaption>
-            </figure>
+            <img src="images/srcset-onethird.jpg" 
+                 srcset="images/srcset-original.jpg 3x, images/srcset-onethird.jpg 2x, images/srcset-twothirds.jpg"
+                 alt="Srcset and Sizes video thumbnail provided by YouTube">
             <h4>Summary of Video Content</h4>
             <p>In this video Kevin shows viewers how to use an attribute called srcset to help them load in different versions of the same image based on the size of the user's viewport. Working in this way is beneficial for reducing bandwidth for users on lower end devices while ensuring that users on high-end devices get nice, crisp images. One might expect that doubling the size of an image would double the bandwidth, when in fact, doubling an image more than quadrouples the bandwidth required. If an image is 3x larger, nearly 10x more bandwidth is required.  </p>
             <p>Step one for using srcset, simply use srcset command and in quotations provide the images that you would like to use with values separated by commas.  It is important to leave img src attribute, as 90% of browsers will support srcset, but as of the publication date of video, 10% still do not. You will want to make sure have a src attribute to fall back on in case of browser lack of functionality. Make sure to put the lowest quality image in the src to keep bandwidth low.</p>
@@ -60,11 +57,9 @@
         <article>
             <h3 id="article2">27 Best About Us and About Me Page Examples of 2023 by Lindsay Kolowich Cox</h3>
             <a href="https://blog.hubspot.com/marketing/remarkable-about-us-page-examples">Read Full Article</a>
-            <figure>
-               <img src="images/about-original-flexbox.png" 
-               alt="Screenshot of 27 Best About Us and About me Page examples of 2023">
-               <figcaption>Fig.2 Screenshot of 27 Best About Us and About me Page examples of 2023</figcaption>
-            </figure>
+            <img src="images/about-onethird.png" 
+                 srcset="images/about-original.png 3x, images/about-twothirds.png 2x, images/about-onethird.png 1x"
+                 alt="Screenshot of 27 Best About Us and About me Page examples of 2023">
             <h4>Summary of Article Content</h4>
             <p>The About Us page is a very important page for any company’s website, as it gives visitors a glimpse into what working with you might be like to work with you and your team, along with the structure of your company, its culture, it personal stories and photos.</p>
             <p>The author suggests one follow these 6 steps to make a great About Us page.  First, start with the mission statement.  Second, outline your company’s story. Third, share how your company has evolved. Fourth, state any AHA! moments your company may have had.  Fifth, explain who you serve, what you’re offering and how you’ve served other clients in these ways. Lastly describe your company values.</p>
@@ -78,11 +73,9 @@
         <article>
             <h3 id="article3">11 Best Practices for Developing Secure Web Applications</h3>
             <a href="https://www.lrswebsolutions.com/Blog/Posts/32/Website-Security/11-Best-Practices-for-Developing-Secure-Web-Applications/blog-post/">Read Full Article</a>
-            <figure>
-               <img src="images/secure-web-app-original-flexbox.jpg" 
-               alt="Photo of a man holding a device with a lock on screen">
-               <figcaption>Fig. 3 Man on a device with a secure web application</figcaption>
-            </figure>
+            <img src="images/secure-web-app-onethird.jpg" 
+                 srcset="images/secure-web-app-onethird.jpg 3x, images/secure-web-app-onethird.jpg 2x, images/secure-web-app-onethird.jpg"
+                 alt="Photo of a man holding a device with a lock on screen">
             <p>This article introduces the importance of taking a hard stance at protecting and securing information, since we are as a society using web applications for so many things and also passing around so much sensitive information via many types of online channels. The article offers 11 tips to improve the overall quality of web applications. </p>
             <p>First, the author emphasizes the need to maintain security during the web app development phase and not to wait until the site is done and then hire a security consulting group to retroactively input security measures.Second tip is  “be paranoid!”  Make sure you require checks and validation of all input. The author offers up the idea to consider all input to be hostile until proven. Also, he suggests the input validation be executed so that only properly formed data passes through the workflow of a web application. The three types of data validation that the author mentions is data type validation, data, format, validation, and data value validation, but basically he says to keep in mind that you need to validate inputs with both syntactical and semantic approaches. The third tip is “encrypt your data!” Encryption is the most common way of protecting sensitive information. Hackers have shown increasingly smarter algorithms that can find penetrable networks rather painlessly.</p>
             <p>Fourth, the author tells us to use exception management that contains only a generic error message. Using actual systems verbatim can put too much information into the wrong hands. The fifth tip is to apply authentication role management and access control. Even better would be to re-authenticate users when accessing more sensitive features.  Basically, each user should be given as little privilege as possible for them to get what they need from the system.   Using this principle (called minimalism by some) you vastly reduce the chance an intruder can perform operations that could crash the application or platform.</p>
@@ -95,11 +88,9 @@
         <article>
             <h3 id="article4">The Future of Web Development: The Impact of Artificial Intelligence by Irfan Rehman</h3>
             <a href="https://www.classicinformatics.com/blog/the-future-of-web-development#:~:text=AI%2Dbased%20web%20developers%20let,through%20the%20manual%20testing%20phases.">Read Full Article</a>
-            <figure>
-               <img src="images/ai-web-dev-original-flexbox.jpg" 
-               alt="Photo of futuristic scene with woman, robot, and spaceship">
-               <figcaption>Fig. 4 Screenshot of original article from Classic Infomatics</figcaption>
-            </figure>
+            <img src="images/ai-web-dev-onethird.jpg" 
+                 srcset="images/ai-web-dev-original.jpg 3x, images/ai-web-dev-twothirds.jpg 2x, images/ai-web-dev-onethird.jpg"
+                 alt="Photo of futuristic scene with woman, robot, and spaceship">
             <p>People are on the internet at all times, jumping from one application to another so apps and websites hold a lot of importance in today’s world. AI can help developers to improve their web apps and websites for users.  Using intelligent algorithms and machines we can create a stunning website from scratch or improvise an existing one in a few minutes.</p>
             <p>AI has been around as a tool for a while. The primary function of AI is to arouse human cognitive processes, enabling machines to think and execute like humans.  While AI has been used to do more basic stuff such as analyzing data, it now has transformed the user experience of websites.  And it has been leveraged in start up businesses to increase the chances of success and help measure ROI.</p>
             <p>The article names five roles in web development for AI.  First is automation.  AI automation saves developers from doing long and boring coding tasks and cuts coding by generating code, snippets, and modules. For instance, a code that an average developer writes in 20 minutes with AI code, it can be done in half the time with better results. The second role is personalization, meaning AI helps websites suggest content that matches what users like, making and engaging making the website more engaging. The third role of AI is optimization.  For example, AI can help you can create an appealing logo. An example was given of Murf, with is a system that provides ready to use website templates. Fourthly, AI is used in security.  With the growing number of data breeches, security is essential.Last but not least, accessibility is mentioned.  AI will let you create an all inclusive web experience for users regardless of their disabilities.  Text to speech, for example, can help people understand content.  Also AI generated captions are helpful for people who can’t hear.</p>

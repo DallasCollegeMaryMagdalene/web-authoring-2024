@@ -122,8 +122,10 @@ article {
 
 aside {
   background-color: #a96b66;
-  color:#F2EEEE;
+  color:#342309;
   padding: .5em;
+  font-size: 28px;
+  font-weight: 400;
 }
 
 footer {
@@ -151,8 +153,6 @@ footer {
 .favorite {
 		border-color: #342309;
 		border-width: medium;
-		background-color: #a96b66;
-		padding: 20px;
 	}
 
   .hero-image {
