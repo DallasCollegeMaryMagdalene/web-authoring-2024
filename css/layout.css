@@ -74,8 +74,12 @@ section {
 
 article {
   /*width: 42%;*/
-  /*float: left;*/
+  float: left;
   margin: 0px;
+}
+
+.blogPost{
+  width: 30vw;
 }
 
 .aside {
@@ -105,8 +109,8 @@ footer {
   transform: translate(-50%, -50%);
 }
 
-figure {
-    margin: auto;
+figure{
+  margin: 0px;
 }
 
 figcaption {
@@ -118,6 +122,10 @@ figcaption {
   float: left;
 }
 
+.photoJulie {
+  float: right;
+
+}
 /* .clearfix {
   overflow: auto;
 } */
@@ -145,10 +153,12 @@ figcaption {
 }
 .threeColumnContainer {
   display: flex;
+  display: -webkit-flex;
   flex-direction: row;
   flex-wrap: nowrap;
-  justify-content: flex-start;
-  /*align-items: stretch;*/
+  -webkit-flex-wrap: nowrap;
+  justify-content: center;
+  align-items: normal;
   gap: 1rem;
 }
 
