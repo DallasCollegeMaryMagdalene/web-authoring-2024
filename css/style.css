@@ -7,12 +7,6 @@
 
 }
 
-* {
-  border-color: #342309;
-  border-width: medium;
-  border-style: none;
-}
-
 body {
   font-family: Arial, Helvetica, sans-serif;
   font-size: medium;
@@ -43,6 +37,11 @@ h2, h3, h4, h5, h6 {
 
 
 header {
+  background-color: #E6D8D0#a96b66;
+  color: #a96b66;
+}
+
+.headerBorder {
   background-color: #E6D8D0#a96b66;
   border-color: #342309;
   border-width: medium;

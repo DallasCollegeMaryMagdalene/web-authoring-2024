@@ -34,12 +34,12 @@ nav {
     width: 4vw;
 }
 
-/* set this to relative to parent container */
-headerText {
+/* set this to relative to parent container
+.headerText {
     position: absolute;
     bottom: 0;
 }
-
+*/
 /* Style the links inside the navigation bar */
 .topnav a {
   float: left;
@@ -65,6 +65,7 @@ section {
 .socialNav {
   flex: 0 1 20vw;
   margin: 0px;
+    min-width: 12vw;
 }
 
 .socialNav ol {
@@ -72,9 +73,11 @@ section {
   padding: 0;
 }
 
-article {
-  /*width: 42%;*/
+.float {
   float: left;
+}
+article {
+  width: 100%;
   margin: 0px;
 }
 
@@ -151,6 +154,7 @@ figcaption {
   justify-content: center;
   gap: 1rem;
 }
+
 .threeColumnContainer {
   display: flex;
   display: -webkit-flex;
