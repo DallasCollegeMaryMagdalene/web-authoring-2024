@@ -96,8 +96,13 @@ a:active {color:#0000FF;}  /* selected link */
   background-image: repeating-linear-gradient(110deg,#342309 10px, #E6D8D0 10px, #342309 15px, #E6D8D0 10px);
 }
 
+main {
+  background-color: #F2EEEE;
+}
+
 section {
   color: #342309;
+  background-color: #F2EEEE;
 }
 
 article {
@@ -114,7 +119,6 @@ aside {
   color:black;
   padding: .5em;
   font-size: 18px;
-  margin-top: 17px;
 }
 
 footer {

@@ -48,7 +48,7 @@ nav {
 }
 
 main {
-  width: 99vw;
+  width: 92vw;
   max-width: 1100px;
   box-sizing: border-box;
   margin-left: auto;
@@ -82,8 +82,7 @@ article {
 }
 
 .blogPost{
-  width: 34vw;
-  margin-top: 20px;
+  width: 30vw;
 }
 
 .aside {
@@ -98,7 +97,7 @@ article {
   flex-wrap: wrap;
   -webkit-flex-wrap: wrap;
   justify-content: center;
-  gap: 3rem;
+  gap: 1rem;
 }
 
 /* selects all the direct children of container class from blog.html*/
