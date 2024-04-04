@@ -40,6 +40,33 @@ nav {
     bottom: 0;
 }
 */
+
+
+#background {
+  /*width: 160px;
+  height: 160px;
+  background-image: url('../images/bankers-250w.jpg');*/
+  animation-name: april;
+  animation-duration: 3s;
+  animation-timing-function: ease-in;
+  animation-delay: 1s;
+  animation-iteration-count: infinite;
+  /* animation-iteration-count: infinite; change this to one */
+}
+
+@keyframes april {
+  0% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
 /* Style the links inside the navigation bar */
 .topnav a {
   float: left;
@@ -57,10 +84,11 @@ main {
   margin-bottom: 0px;
 }
 
+
 .socialNav {
   flex: 0 1 20vw;
-  margin: 0px;
-  min-width: 12vw;
+  margin-right: 15px;
+  min-width: 20vw;
 }
 
 .socialNav ol {
@@ -157,24 +185,25 @@ figcaption {
 
 .photoJulie {
   float: right;
+  transform: rotate(10deg);
 
 }
 /* .clearfix {
   overflow: auto;
 } */
 
+.bankers {
+  width: 250px;
+  max-width: 100%;
+  height: auto;
+  float: left;
+}
+
 .clearfix::after {
   content: "";
   clear: both;
   display: table;
 }
-
-.bankers {
-  width: 250px;
-  max-width: 100%;
-  height: auto;
-}
-
 .responsive {
   max-width: 100%;
   height: auto;

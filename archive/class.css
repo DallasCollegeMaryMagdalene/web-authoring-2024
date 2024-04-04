@@ -1,0 +1,40 @@
+
+/*
+stick a form in the contact us page
+you can also replace button with 
+input[type="submit"]  with this he also added padding 12px and margin of 0 1em 
+any input we use with submit and reset */
+
+button {
+    position: relative;
+    top: 0;
+    left: 0;
+    padding: 12px;
+    color: whitesmoke;
+    background-color: black;
+    font-size: 1em;
+    border-radius: 10%;
+    box-shadow: 6px 6px 6px #555;
+    transition: background-color .2s, top .3s, left .3s, box-shadow .3s;
+}
+
+button:hover {
+    color: black;
+    background-color: aquamarine;
+}
+
+button:active {
+    color: black;
+    background-color: red;
+    position: relative;
+    top: 6px;
+    left: 6px;
+}
+
+/* Button code from html - dont forget to start a form
+make a form tag?
+<input type="submit" value="send request"
+input type="reset" value="clear"
+
+animation*/
+
