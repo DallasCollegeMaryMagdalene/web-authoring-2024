@@ -1,0 +1,66 @@
+ :root {
+      --primary1: #E6D8D0;
+      --accent1: #c58984;
+      --primary2: #342309;
+      --accent2: #ad8952;
+      --dark: black;
+      --light: #F2EEEE;
+     
+      
+
+      /*--navWhite: #f2f2f2;
+      --brightRed: #FF0000;
+      --pink: #a96b66;
+      --blue: #0000FF;*/
+ }
+
+
+ .primary1-bg {
+    color: var(--primary1);
+ }
+
+ .primary2-bg {
+    color: var(--primary2);
+ }
+
+ .primary2-text {
+      color: var(--primary2);
+}
+
+ .accent1-text {
+    color: var(--accent1);
+ }
+
+ .accent2-text {
+    color: var(--MonoDarkestGreen);
+ }
+
+ .dark {
+    color: var(--dark);
+ }
+
+ /*Monochromatic theme
+primary1: #FCCB1a;
+primary2: blue
+accent: pink
+light: creme
+dark: black
+--monoLightMint: #E7F3EF;
+--monoDarkMint: #79BEA8;
+--monoMiddleGreen: #448D76;
+--monoDarkGreen: #23483C;
+--MonoDarkestGreen: #093426;*/
+
+ /*use custom color class names to define scheme colors, color styles for custom color scheme*/
+ .brown {
+    color: #342309;
+    background-color: var(--darkBackground);
+ }
+
+ .brown-text {
+    color: var(--brown);
+ }
+
+ .brown-background {
+    background-color: var(--brown);
+ }

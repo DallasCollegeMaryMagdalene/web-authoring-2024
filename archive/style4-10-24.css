@@ -25,18 +25,18 @@
 body {
   font-family: Arial, Helvetica, sans-serif;
   font-size: medium;
-  /* color: var(--brown);
-  background-color: var(--darkBackground); */
+  color: var(--brown);
+  background-color: var(--darkBackground);
 }
 
 p {
   font-family: Arial, Helvetica, sans-serif;
   font-size: medium;
-  /* color: var(--brown); */
+  color: var(--brown);
 }
 
 h1 {
-  /* color: var(--brown); */
+  color: var(--brown);
   font-family: "Lobster", sans-serif;
   font-weight: 400;
   font-size: 56px;
@@ -45,16 +45,16 @@ h1 {
 }
 
 h2, h3, h4, h5, h6 {
-  /* color: var(--brown); */
+  color: var(--brown);
   font-weight: bold;
   font-family: Arial, Helvetica, sans-serif;
 }
 
 
 header {
-  /* background-color: var(--darkBackground);
+  background-color: var(--darkBackground);
   color: var(--pink);
-  border-color:  var(--brown); */
+  border-color:  var(--brown);
   border-width: medium;
   border-style: dotted;
 }
@@ -62,49 +62,49 @@ header {
 /* Add a dark background color to the top navigation */
 .topnav {
   text-align: center;
-  font-weight: bold;
-  overflow: hidden;*/
-  
+  background-color:  var(--brown);
+  color: var(--navWhite);
+  overflow: hidden;
 }
 
 /* Style the links inside the navigation bar */
 .topnav a {
+  color: var(--navWhite);
   text-decoration: none;
   font-size: 17px;
 }
 
-/* Change the color of links on hover 
+/* Change the color of links on hover */
 .topnav a:hover {
-  /* background-color: var(--navWhite);
-  color: var(--black); 
+  background-color: var(--navWhite);
+  color: var(--black);
 }
 
-/* Add a color to the active/current link 
+/* Add a color to the active/current link */
 .topnav a:link {
-  /* background-color: var(--brown);
-  color: var(--navWhite); 
+  background-color: var(--brown);
+  color: var(--navWhite);
 }
 
 .topnav a:active {
-  /* background-color:  var(--brown);
-  color: var(--navWhite); 
+  background-color:  var(--brown);
+  color: var(--navWhite);
 }
 
 .topnav a:visited {
-  /* background-color:  var(--brown);
-  color: var(--navWhite); 
+  background-color:  var(--brown);
+  color: var(--navWhite);
 }
 
 a {
-  color: var (--monoLightMint);
-  /* color: var(--black); 
+  color: var(--black);
 }
 
-/*
-a:link {color:  var(--brown);} /* unvisited link 
-a:visited {color: var(--black);} /* visited link 
-a:hover {color: var(--monoLightMint);} /* mouse over link 
-a:active {color:var(--monoLightMint);}  /* selected link */
+a:link {color:  var(--brown);} /* unvisited link */
+a:visited {color: var(--black);} /* visited link */
+a:hover {color: var(--brown);} /* mouse over link */
+a:hover {color: var(--black);} /* mouse over link */
+a:active {color: var(--blue);}  /* selected link */
 
 .fringe {
   height: 1vh;
@@ -112,35 +112,35 @@ a:active {color:var(--monoLightMint);}  /* selected link */
 }
 
 section {
-  /* color:  var(--brown); */
+  color:  var(--brown);
 }
 
 article {
-  /* color:  var(--brown);
-  background-color: var(--lightBackground); 
-  border-color: var(--accent2);*/
+  color:  var(--brown);
+  background-color: var(--lightBackground);
+  border-color: var(--gold);
   border-style:ridge;
   border-radius: 5px;
   padding: 20px;
 }
 
 aside {
-  /* background-color: var(--pinkAside);
-  color: var(--black); */
+  background-color: var(--pinkAside);
+  color: var(--black);
   padding: .5em;
   font-size: 18px;
   margin-top: 17px;
 }
 
 footer {
-  /* background-color: var(--darkBackground);
-  color:  var(--brown); */
+  background-color: var(--darkBackground);
+  color:  var(--brown);
   text-align: center;
   padding-top: .5em;
 }
 
 .last {
-  /* color:  var(--brown); */
+  color:  var(--brown);
 }
 
 #lobster-regular {
@@ -151,11 +151,11 @@ footer {
 }
 
 .special {
-   /* color: var(--brightRed) */
+   color: var(--brightRed)
 }
 
 .favorite {
-		/* border-color:  var(--brown); */
+		border-color:  var(--brown);
 		border-width: medium;
 	}
 
@@ -167,9 +167,9 @@ footer {
   background-size: cover;
 }
 
-/* .hero-text {
+.hero-text {
   color: var(--lightBackground);
-} */
+}
 
 figcaption {
   color:  var(--brown);
@@ -182,8 +182,8 @@ input[type=submit] {
   top: 7px;
   left: 0px;
   padding: 12px;
-  /* color: var(--navWhite);
-  background-color:  var(--brown); */
+  color: var(--navWhite);
+  background-color:  var(--brown);
   font-size: 1em;
   border-radius: 10%;
   box-shadow: 6px 6px 6px var(--shadowColor);
@@ -191,17 +191,13 @@ input[type=submit] {
 }
 
 input[type=submit]:hover {
-  /* color: var(--brown);
-  background-color: var(--pink); */
-  background-color: var(--monoMiddleGreen);
-  color: var(--MonoDarkestGreen);
+  color: var(--brown);
+  background-color: var(--pink);
 }
 
 input[type=submit]:active {
-  /* color:  var(--brown);
-  background-color: var(--gold); */
-  color: var(--monoDarkMint);
-  background-color: var(--MonoDarkestGreen);
+  color:  var(--brown);
+  background-color: var(--gold);
   position: relative;
   top: 10px;
   left: 10px;

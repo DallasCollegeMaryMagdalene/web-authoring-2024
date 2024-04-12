@@ -1,0 +1,55 @@
+ :root {
+      --primary1: #E7F3EF;
+      --accent1: #79BEA8;
+      --primary2: #448D76;
+      --accent2: #23483C;
+      --dark: #093426;
+ }
+
+ .primary1-bg {
+      color: var(--primary1);
+ }
+
+.primary1-border {
+     border-color: var(--dark);
+}
+
+ .primary1-text {
+      color: var(--primary1);
+ }
+
+ .primary2-bg {
+      background-color: var(--primary2);
+ }
+
+ a:link, a:visited, a:hover, a:active {
+     color: var(--primary1);
+ }
+
+.accent1-text {
+       color: var(--accent1);
+}
+
+.accent2-text {
+      color: var(--accent2);
+ }
+
+.dark-text {
+     color: var(--dark);
+ }
+
+.dark-bg {
+     background-color: var(--dark);
+ }
+
+
+ .light-mint-background {
+      color: var(--MonoDarkestGreen);
+      background-color: var(--monoLightMint);
+ }
+
+ .mono-footer {
+      color: var(--monoDarkMint);
+      background-color: var(--MonoDarkestGreen);
+ }
+
