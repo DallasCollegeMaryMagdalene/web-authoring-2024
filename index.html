@@ -1,117 +1,138 @@
 <!DOCTYPE html>
 <html lang="en">
 
-   <head>
-      <meta charset="UTF-8">
-      <meta http-equiv="X-UA-Compatible" content="IE=edge">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <title>Julie's Homepage</title>
-      <link rel="stylesheet" href="css/style.css">
-      <link rel="preconnect" href="https://fonts.googleapis.com">
-      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-      <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet"> 
-      <link rel="stylesheet" href="css/fontawesome.css">
-      <link rel="stylesheet" href="css/solid.css">
-      <!-- <link rel="stylesheet" href="css/brands.css"> -->
-      <!-- <link rel="stylesheet" href="css/all.css"> -->
-      <!-- <link rel="stylesheet" href="css/regular.css"> -->
-      <!-- <link rel="stylesheet" href="css/svg-with-js.css"> -->
-      <link rel="stylesheet" href="css/layout.css">
-      <link rel="stylesheet" href="css/mint.css">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Julie's Homepage</title>
+   <link rel="stylesheet" href="css/style.css">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+   <link rel="stylesheet" href="css/fontawesome.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   <link rel="stylesheet" href="css/solid.css">
+   <!-- <link rel="stylesheet" href="css/brands.css"> -->
+   <!-- <link rel="stylesheet" href="css/all.css"> -->
+   <!-- <link rel="stylesheet" href="css/regular.css"> -->
+   <!-- <link rel="stylesheet" href="css/svg-with-js.css"> -->
+   <link rel="stylesheet" href="css/layout.css">
+   <link rel="stylesheet" href="css/mint.css" id="color">
+   <script src="script.js" defer></script>
 
-   </head>
+</head>
 
-   <body>
-      <header class="headerBorder primary2-bg primary1-border">
-         <h1 class="dark-text">Julie's Home Page</h1>
-         <div id="headerLogoContainer">
-            <img id="logoimage" src="images/logoipsum-299.svg" srcset="images/logoipsum-299.svg 3x, images/logoipsum-299.svg 2x, images/logoipsum-299.svg" alt="site logo">
+<body>
+   <header class="headerBorder primary2-bg primary1-border">
+      <h1 class="dark-text">Julie's Home Page</h1>
+      <button onClick="changeStyle('css/color.css');">Blue</button>
+      <button onClick="changeStyle('css/pink.css');">Pink</button>
+      <button onClick="changeStyle('css/mint.css');">Mint</button>
+      <div id="headerLogoContainer">
+         <img id="logoimage" src="images/logoipsum-299.svg"
+            srcset="images/logoipsum-299.svg 3x, images/logoipsum-299.svg 2x, images/logoipsum-299.svg" alt="site logo">
+      </div>
+
+   </header>
+   <nav class="topnav" id="myTopnav">
+      <a class="accent1-text" href="index.html">Home</a>
+      <a class="accent1-text" href="about.html">About Placeholder</a>
+      <a class="accent1-text" href="contact-us.html">Contact Placeholder</a>
+      <a class="accent1-text" href="blog.html">Blog</a>
+      <a class="accent1-text" href="products.html">Products</a>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()"><i class="fa fa-bars"></i></a>
+   </nav>
+   <main class="threeColumnContainer primary1-bg dark-text">
+      <section class="socialNav dark-text">
+         <h2 id="welcome">Connect with Julie!</h2>
+         <ol>
+            <li>Follow us on <a href="www.twitter.com"><i class="fa-solid fa-x"></i></a></li>
+            <li>Check out my <a href="blog.html"><i class="fa-solid fa-blog"></i></a></li>
+            <li>Read through our commonly asked <a href="faq.html"><i class="fa-solid fa-question"></i></a></li>
+         </ol>
+         <h2>Sign up for our newsletter!</h2>
+         <p>Subscribe via <a href="mailto:e3678089@student.dcccd.edu"><i class="fa fa-envelope"
+                  aria-hidden="true"></i></a> or register below.</p>
+         <div id="newsletter">
+            <form name="newsSignup" method="post" action="placeholder.html" id="newsSignup">
+               <label>Name: <input type="text" name="yourName"></label>
+               <label>Email: <input type="email" name="email"></label>
+               <input type="submit" value="Sign Up" class="primary2-bg dark-text">
+            </form>
          </div>
-      </header>
-      <nav class="topnav dark-bg dark-text">
-         <a href="index.html">Home</a><a href="about.html">About Placeholder</a><a href="contact-us.html">Contact Placeholder</a><a href="blog.html">Blog</a><a href="products.html">Products</a>
-      </nav>
-      <main class="threeColumnContainer primary1-bg dark-text">
-         <section class="socialNav">
-            <h2>Connect with Julie!</h2>
-            <ol>
-               <li>Follow us on <a href="www.twitter.com"><i class="fa-solid fa-x"></i></a></li>
-               <li>Check out my <a href="blog.html"><i class="fa-solid fa-blog"></i></a></li>
-               <li>Read through our commonly asked <a href="faq.html"><i class="fa-solid fa-question"></i></a></li>
-            </ol> 
-            <h2>Sign up for our newsletter!</h2>  
-               <p>Subscribe via <a href="mailto:e3678089@student.dcccd.edu"><i class="fa fa-envelope" aria-hidden="true"></i></a> or register below.</p>
-            <div id="newsletter">
-	            <form name="newsSignup" method="post" action="placeholder.html" id="newsSignup">
-		            <label>Name: <input type="text" name="yourName"></label>
-		            <label>Email: <input type="email" name="email"></label>
-		            <input type="submit" value="Sign Up" class="primary2-bg dark-text">
-	            </form>
-            </div>
 
-         </section>
-         
-         <section>
-            <h2>About Julie</h2>
-               <h3>Professional</h3>
-               <article>  
-               <h4>Goals</h4>
-               <p>Julie's goal is to start a business. For decades it has been a dream of Julie's to start an organization that brings value to the world. The business will give back to the community and its employees instead of solely focusing on maximizing shareholder wealth and squeezing every iota of margin and profitability it can out of the organization.<p>
-               </article> 
-               <article id="background">
-               <h4>Background / Experience</h4>
-               <!-- <figure>
+      </section>
+
+      <section>
+         <h2>About Julie</h2>
+         <h3>Professional</h3>
+         <article>
+            <h4>Goals</h4>
+            <p>Julie's goal is to start a business. For decades it has been a dream of Julie's to start an organization
+               that brings value to the world. The business will give back to the community and its employees instead of
+               solely focusing on maximizing shareholder wealth and squeezing every iota of margin and profitability it
+               can out of the organization.
+            <p>
+         </article>
+         <article id="background">
+            <h4>Background / Experience</h4>
+            <!-- <figure>
                <img class="bankers"  src="images/bankers-250w.jpg" alt="Bankers working together on a laptop">
                <figcaption>Team of bankers</figcaption>
                </figure> -->
-               <p>Through a multifaceted career in commercial banking Julie aquired financial, sales and leadership education. She also became very familiar with marketing, training, communications, CRM, organizational change management and data science from a stakeholder perspective.</p>
-               </article>
-               <article>
-               <h4>Why Web Authoring</h4>
-               <p>Julie is hoping to complete a <strong>technological</strong> education to round out her skillset for the pursuit of entreprendurship.  These days technological skills are table stakes for any aspiring leader.  What better way is there to get a technicological education than to jump into Web Development!?</p>
-               </article>
-               <article>
-                  <h4>Relevant Coursework</h4>
-                     <ol class="favorite">
-                        <li>Web Tools</li>
-                        <li>Java Script</li>
-                        <li>PHP</li>
-                        <li>The Complete Web Development Bootcamp</li>
-                        <li>Becoming a WordPress Developer</li>
-                        <li>Web Authoring - May 2024</li>
-                     </ol>
-               </article>
-               <article class="float">
-                  <h3>Personal</h3>
-                  <p>Julie enjoys biking and yoga. She is a bible study <strong>addict</strong>!</p>
-                  <figure class="photoJulie">
-                  <img src="images/julie.jpg" alt="Picture of Julie" class="responsive">
-                  <figcaption>Recent photo of Julie</figcaption>
-                  </figure>
-               </article>
-         </section>
-         <aside class="aside">
-               <h2 >Upcoming Speaking Engagements</h2>
-               <ol>
-                  <li>February 16</li>
-                  <li>March 26 - limited space!</li>
-                  <li>April - TBD</li>   
-               </ol>
-            </aside>
-         
-      </main>
-      
-      <footer class="accent1-text dark-bg">
-         <address>
-          Written by: Julie   <!--  <a href="mailto:e3678089@student.dcccd.edu">Julie of Dallas College</a>.--><br> 
-            Visit us at: dallascollege.edu
-            <!-- <a href="https://www.dallascollege.edu">dallascollege.edu</a>--><br> 
-            3939 Valley View Ln.<br>
-            Farmers Branch, TX 75244<br>
-            USA
-         </address>
-         <div>Copyright &copy; 2024 by Julie</div>
-      </footer>
-   </body>
+            <p>Through a multifaceted career in commercial banking Julie aquired financial, sales and leadership
+               education. She also became very familiar with marketing, training, communications, CRM, organizational
+               change management and data science from a stakeholder perspective.</p>
+         </article>
+         <article>
+            <h4>Why Web Authoring</h4>
+            <p>Julie is hoping to complete a <strong>technological</strong> education to round out her skillset for the
+               pursuit of entreprendurship. These days technological skills are table stakes for any aspiring leader.
+               What better way is there to get a technicological education than to jump into Web Development!?</p>
+         </article>
+         <article>
+            <h4>Relevant Coursework</h4>
+            <ol class="favorite">
+               <li>Web Tools</li>
+               <li>Java Script</li>
+               <li>PHP</li>
+               <li>The Complete Web Development Bootcamp</li>
+               <li>Becoming a WordPress Developer</li>
+               <li>Web Authoring - May 2024</li>
+            </ol>
+         </article>
+         <article class="float">
+            <h3>Personal</h3>
+            <p>Julie enjoys biking and yoga. She is a bible study <strong>addict</strong>!</p>
+            <figure class="photoJulie">
+               <img src="images/julie.jpg" alt="Picture of Julie" class="responsive">
+               <figcaption>Recent photo of Julie</figcaption>
+            </figure>
+         </article>
+      </section>
+      <aside class="aside">
+         <h2>Upcoming Speaking Engagements</h2>
+         <ol>
+            <li>February 16</li>
+            <li>March 26 - limited space!</li>
+            <li>April - TBD</li>
+         </ol>
+      </aside>
+
+   </main>
+
+   <footer class="accent1-text dark-bg">
+      <address>
+         Written by: Julie <!--  <a href="mailto:e3678089@student.dcccd.edu">Julie of Dallas College</a>.--><br>
+         Visit us at: dallascollege.edu
+         <!-- <a href="https://www.dallascollege.edu">dallascollege.edu</a>--><br>
+         3939 Valley View Ln.<br>
+         Farmers Branch, TX 75244<br>
+         USA
+      </address>
+      <div>Copyright &copy; 2024 by Julie</div>
+   </footer>
+</body>
 
 </html>

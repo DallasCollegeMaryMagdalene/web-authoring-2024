@@ -1,14 +1,14 @@
  :root {
-      --primary1: #E6D8D0;
-      --accent1: #c58984;
-      --primary2: #342309;
-      --accent2: #ad8952;
-      --dark: black;
-      --light: #F2EEEE;
-     
-      
+     --primary1: #E6D8D0;
+     --accent1: #c58984;
+     --primary2: #342309;
+     --accent2: #ad8952;
+     --dark: black;
+     --light: #F2EEEE;
 
-      /*--navWhite: #f2f2f2;
+
+
+     /*--navWhite: #f2f2f2;
       --brightRed: #FF0000;
       --pink: #a96b66;
       --blue: #0000FF;*/
@@ -16,27 +16,27 @@
 
 
  .primary1-bg {
-    color: var(--primary1);
+     color: var(--primary1);
  }
 
  .primary2-bg {
-    color: var(--primary2);
+     color: var(--primary2);
  }
 
  .primary2-text {
-      color: var(--primary2);
-}
+     color: var(--primary2);
+ }
 
  .accent1-text {
-    color: var(--accent1);
+     color: var(--accent1);
  }
 
  .accent2-text {
-    color: var(--MonoDarkestGreen);
+     color: var(--MonoDarkestGreen);
  }
 
  .dark {
-    color: var(--dark);
+     color: var(--dark);
  }
 
  /*Monochromatic theme
@@ -53,14 +53,14 @@ dark: black
 
  /*use custom color class names to define scheme colors, color styles for custom color scheme*/
  .brown {
-    color: #342309;
-    background-color: var(--darkBackground);
+     color: #342309;
+     background-color: var(--darkBackground);
  }
 
  .brown-text {
-    color: var(--brown);
+     color: var(--brown);
  }
 
  .brown-background {
-    background-color: var(--brown);
+     background-color: var(--brown);
  }

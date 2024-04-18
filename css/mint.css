@@ -22,9 +22,9 @@
       background-color: var(--primary2);
  }
 
- a:link, a:visited, a:hover, a:active {
-     color: var(--primary1);
- }
+ /* a:link, a:visited, a:hover, a:active {
+     color: var(--accent1);
+ } */
 
 .accent1-text {
        color: var(--accent1);

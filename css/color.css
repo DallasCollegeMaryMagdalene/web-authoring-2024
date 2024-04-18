@@ -1,29 +1,36 @@
  :root {
-     --primary1: #347B98;
-     --accent1: #F7F0D4;
-     --primary2: #FCCB1a;
+     --primary1: #F7F0D4;
+     --accent1: #FCCB1a;
+     --primary2: #347B98;
      --accent2: #C21460;
      --dark: #092834;
  }
 
+.primary1 {
+   color: var(--primary1);
+}
+
 .primary1-bg {
    background-color: var(--primary1);
+}
+
+.primary1-border {
+   border-color: var(--primary1);
 }
 
 .primary2-text {
    color: var(--primary2);
 }
 
+.primary2-bg{
+   background-color: var(--primary2);
+}
 .accent1-text {
    color: var(--accent1);
 }
 
 .accent1-bg {
    background-color: var(--accent1);
-}
-
-.accent2-text {
-   color: var(--MonoDarkestGreen);
 }
 
 .accent2-border {
@@ -38,9 +45,10 @@
    color: var(--dark);
 }
 
-a:link,
-a:visited,
-a:hover,
-a:active {
-   color: var(--dark);
+button {
+   background-color: var(--accent2);
+}
+
+a {
+   color: var(--accent2);
 }
