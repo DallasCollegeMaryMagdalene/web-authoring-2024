@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/register-boot.css">
+</head>
+
+<body>
+   <header class="container-fluid bg-primary p-2">
+     <h1>Registration Page</h1>
+   </header>
+    <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+    <!-- Brand -->
+    <a class="navbar-brand" href="#">Julie's Page</a>
+
+    <!-- Toggler/collapsibe Button -->
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- Navbar links -->
+    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Contact</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+</nav>
+
+<main class="container-md">
+    <section class="row">
+    <article class="col-sm-3 col-md-3">
+        <h2>Placeholder</h2>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </article>
+    <article class="col col-md-6">
+        <h2>Webform Mailer</h2>
+
+        <p>
+            This page was created to demonstrate the basic web form input types.
+        </p>
+        <fieldset>
+            <!-- this is called legend text -->
+            <legend>This is a form demo.</legend>
+            <!-- use this method for form for assignment - make sure when you click on the label it highlights that part of the form -->
+            <!-- <label for="lastname"> Last Name </label> <input type="text" name="lastname" id="lastname"> -->
+            <h3>Personal Information</h3>
+            <form id="myMailerForm" method="post" action="mailto:sherd@dcccd.edu">
+                <p>
+                    <label for="name"> Name</label>
+                    <input type="text" name="Name" id="name" placeholder="Name" required autofocus>
+                </p>
+                <p>
+                    <label for="email">E-Mail></label>
+                    <input type="email" name="Email" id="email" placeholder="Email" required>
+                </p>
+                <p>
+                    <label title="Select an interest of your choice">Interests</label>
+                    <select name="programID">
+                        <option value="" selected>&larr;&nbsp;Select Program&nbsp;&rarr;</option>
+                        <option value="1">Biking</option>
+                        <option value="2">Hiking</option>
+                        <option value="3">Skiing</option>
+                        <option value="4">Rowing</option>
+                        <option value="5">Cloud Computing</option>
+                    </select>
+                </p>
+                <p>
+                    <!-- herd put this out of order to line it all up if he wants the label after he would just move the order of ht -->
+                    <label title="Select to be contacted." for="contact-me"><input type="checkbox" name="contact-me" id="contact-me" checked> Contact Me</label>
+                </p>
+
+                <label for="date">Today's Date</label>
+                <input type="date" id="date">
+
+                <label for="color">Fave Color</label>
+                <input type="color" id="color">
+
+                <h3>Message</h3>
+                <p>
+                    <label title="Select if you have a question." for="question">Question </label><input type="radio" name="request" value="question" id="question">
+                    <br>
+                    <label title="Select if you have a comment." for="comment" >Comment</label> <input type="radio" name="request" value="comment" id="comment">
+                </p>
+        
+                <input type="submit" name="submit" value="Send Mail">
+                <input type="submit" name="reset" value="Erase Form">
+            </form>
+        </fieldset>
+   
+    </article>
+    <aside class="col col-md-3">
+        <h2>ads</h2>
+        <div>one add will go here</div>
+    </aside>
+    </section>
+</main>
+
+<footer>
+    <p>Copyright &copy; 2024</p>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+    
+</body>
+</html>
