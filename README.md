@@ -1,3 +1,3 @@
-#Web Authoring Course Projects
+# Web Authoring Course Projects
 
 ## HTML, CSS, JavaScript
